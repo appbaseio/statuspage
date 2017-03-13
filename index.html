@@ -63,6 +63,48 @@
 				
 					
 					<div class="incident">
+						<span class="date moment">2017-03-13 17:42:34 UTC</span>
+
+						
+							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
+						
+						
+							<span class="label system float-right">Elasticsearch</span>
+						
+						<hr/>
+
+						<span class="title">Elasticsearch cluster availability has been affected</span>
+						<p>One of our Elasticsearch cluster's availability had been affected for a few hours on March 13, 2017. On investigating, the cause has been a memory leak in environments that use Docker v1.9 and Linux Kernel 4.3 environments. https://github.com/docker/docker/issues/18295 is an open issue.</p>
+
+						
+							<p><em>Update <span class="moment">2017-03-13 17:42:42 UTC</span></em></p>
+							<p>A good follow-up step should be to upgrade the host and docker environments to the most stable recent release.</p>
+
+						
+					</div>
+					
+					<div class="incident">
+						<span class="date moment">2017-03-08 12:02:00 UTC</span>
+
+						
+							<span class="label operational float-right" data-l10n-id="resolved">resolved</span>
+						
+						
+							<span class="label system float-right">Users Service</span>
+						
+						<hr/>
+
+						<span class="title">Increased errors: Accounts API</span>
+						<p>Investigating increased number of errors in the accounts API. Service is unable to connect to the metrics backend.</p>
+
+						
+							<p><em>Update <span class="moment">2017-03-08 12:30:59 UTC</span></em></p>
+							<p>Had an issue with the underlying server nodes. Migrated the Users Service to a new node cluster.</p>
+
+						
+					</div>
+					
+					<div class="incident">
 						<span class="date moment">2017-02-17 08:17:17 UTC</span>
 
 						
